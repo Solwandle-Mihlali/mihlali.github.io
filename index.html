@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<body>
+     <div class="navbar">
+        <div class="logo" id="logo"></div>
+        <ul>
+            <li><a href="#">View Books</a></li>
+            <li><a href="#">Manage</a></li>
+            <li><button type="button" id="addBtn" onclick="showEverything()">ADD</button></li>
+        </ul>
+
+     </div>
+    <form class="root" id="root">
+         <input class="inputFields" id="author"  type="text" placeholder="author name..">
+         <input class="inputFields" id="title"  type="text" placeholder="Book Title..">
+         <input class="inputFields" id="pages" type="text" placeholder="Pages..">
+         <button type="button" id="submitBtn">Submit</button>
+    </form>
+
+    
+
+    <script src="populate.js"></script>
+</body>
+</html>
